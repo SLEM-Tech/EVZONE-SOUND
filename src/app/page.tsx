@@ -26,10 +26,10 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <AppLayout className="mx-auto pt-28 sm:pt-44">
-      {/* <AllCategorySection /> */}
       <HeroSection />
       <SecondHeroSection />
-      <div className="my-4 sm:my-10 ">
+      <div className="my-4 sm:my-10 pb-20 ">
+        <AllCategorySection />
         <SortedProducts />
         <QuoteOfDay />
         <Faq />

@@ -20,8 +20,12 @@ const HeroSection = () => {
         </p>
         <button
           onClick={() => router.push("/category")}
-          className="capitalize border border-primaryColor-200 p-2 flex text-primary items-center gap-2 text-sm md:text-base">
-          read more <IoIosArrowRoundForward className="text-primary " />
+          className="relative capitalize rounded-xl border border-primaryColor-200 p-2 flex text-primary items-center gap-2 text-sm md:text-base group overflow-hidden transition-all duration-300 hover:bg-primaryColor-100/10">
+          <span className="relative z-10">Shop now</span>
+          <IoIosArrowRoundForward className="text-primary transition-transform duration-300 group-hover:translate-x-1" />
+
+          {/* Optional background animation (uncomment if you want it) */}
+          {/* <span className="absolute inset-0 bg-primaryColor-100/5 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-0"></span> */}
         </button>
       </section>
       <section className="order-1 lg:order-2 w-full lg:w-auto mt-6 lg:mt-0">

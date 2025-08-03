@@ -92,8 +92,8 @@ const SortedProducts = () => {
         {isLoading ? (
           <div className="flex justify-center">Loading products...</div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {products.slice(0, 6).map((product) => (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
+            {products.slice(0, 10).map((product) => (
               <ProductCard1 key={product.id} product={product} />
             ))}
           </div>
