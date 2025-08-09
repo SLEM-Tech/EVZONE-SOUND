@@ -195,7 +195,7 @@ const Header = () => {
           <div className="flex items-center justify-between max-w-[1200px] mx-auto py-4 px-5 xl:px-0">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <LogoImage className="w-[100px] lg:w-[120px]" />
+              <LogoImage />
             </div>
 
             {/* Search Bar */}

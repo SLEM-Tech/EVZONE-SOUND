@@ -63,7 +63,7 @@ const Dashboard: React.FC<DashboardProps> = ({ children }) => {
   };
 
   return (
-    <div className="mx-auto pt-28 slg:pt-32 max-w-screen-2xl px-3 sm:px-10 mb-32">
+    <div className="mx-auto pt-28 max-w-screen-2xl px-3 sm:px-10 mb-32">
       <div className="py-10 lg:py-12 flex flex-col lg:flex-row w-full  min-h-[300px]">
         <div className="flex-shrink-0 w-full lg:w-60 px-2 mr-4 lg:mr-5 transition">
           <div className="bg-white px-2 pt-3 pb-12 rounded-md sticky top-32 shadow-md slg:block grid grid-cols-2 gap-3 slg:gap-0">
@@ -95,7 +95,7 @@ const Dashboard: React.FC<DashboardProps> = ({ children }) => {
             </span>
           </div>
         </div>
-        <div className="w-full flex-1 bg-white mt-4 lg:mt-0 p-4 sm:p-5 lg:p-8 rounded-md overflow-hidden shadow-md min-h-[450px]">
+        <div className="w-fit flex-1 bg-white mt-4 lg:mt-0 p-4 sm:p-5 lg:p-8 rounded-md overflow-hidden shadow-md min-h-[450px]">
           {!children && (
             <div className="overflow-hidden">
               {/* <div className='grid gap-2 mb-8 md:grid-cols-2 xl:grid-cols-4'> */}
