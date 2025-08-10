@@ -524,7 +524,7 @@ const EvzoneSoundGridPolicies = () => {
                 <li>Technical Support: support@evzonesound.com.ng</li>
                 <li>Licensing: licensing@evzonesound.com.ng</li>
                 <li>Professional Services: pro@evzonesound.com.ng</li>
-                <li>Phone: +234-801-234-5016</li>
+                {/* <li>Phone: +234-801-234-5016</li> */}
                 <li>Website: www.evzonesound.com.ng</li>
               </ul>
             </div>

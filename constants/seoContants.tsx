@@ -1,7 +1,7 @@
-const websiteUrl = "https://www.evzone-sound.com.ng/";
+const websiteUrl = "https://evzone-sound.vercel.app/";
 export const websiteName = "Evzone Sound";
 export const SEODATA = {
-  defaultOGImage: `https://www.evzone-sound.com.ng/_next/static/media/evzone-sound-logo.6c861d97.png`,
+  defaultOGImage: `https://evzone-sound.vercel.app/_next/static/media/evzonelogo.48cb8790.png`,
   default: {
     title: websiteName,
     description: `This is ${websiteName}`,
