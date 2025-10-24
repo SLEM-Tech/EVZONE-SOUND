@@ -62,7 +62,7 @@ const SortedProducts = () => {
       {/* Header Section */}
       <header className="text-center mb-12">
         <p className="text-lg text-gray-600">SOME QUALITY ITEMS</p>
-        <h1 className="text-4xl font-bold my-4">Popular Books</h1>
+        <h1 className="text-4xl font-bold my-4">Best Sellers</h1>
 
         {/* Categories List */}
         <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -86,7 +86,7 @@ const SortedProducts = () => {
       {/* Products Section */}
       <section className="mb-16">
         <h2 className="text-2xl font-semibold mb-8 text-center">
-          Find the perfect book for you
+          Find the perfect outfit for you
         </h2>
 
         {isLoading ? (
