@@ -33,10 +33,9 @@ const EvzoneSoundGridPolicies = () => {
           Evzone Sound Grid Com. Ltd Policies
         </h3>
         <span className="text-xs sm:text-sm xl:text-base leading-[150%] text-gray-400 sm:max-w-3xl slg:max-w-2xl">
-          At Evzone Sound Grid Com. Ltd, we specialize in premium audio-focused
-          digital content including sound libraries, music production tools,
-          audio books, and immersive multimedia experiences with
-          professional-grade audio quality and cutting-edge sound technology.
+          Evzone Sound Grid Com. Ltd, we specialize in premium women's fashion, offering a curated selection of clothing,
+          accessories, and lifestyle apparel. Our collection features high-quality fabrics, trend-forward designs, and 
+          versatile pieces to elevate every wardrobe with style, comfort, and sophistication.
         </span>
         <div className="flex gap-2 mt-3 xl:mt-8 text-[10px] xs:text-xs sm:text-sm slg:text-base leading-[140%] bg-[#F5F5F5] p-1 rounded-md transition">
           <button
