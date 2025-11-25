@@ -116,14 +116,6 @@ const EvzoneSoundGridPolicies = () => {
                 occasion.
               </li>
               <li>
-                <span className="font-medium">Audio Licensing Framework:</span>
-                Sound content is licensed based on usage type including personal
-                use, commercial use, broadcast licensing, and synchronization
-                rights. Each license type has specific usage restrictions,
-                attribution requirements, and territory limitations clearly
-                defined at purchase.
-              </li>
-              <li>
                 <span className="font-medium">Premium Quality Materials:</span>{" "}
                 All clothing items are crafted from high-quality, durable
                 fabrics designed for comfort, breathability, and long-lasting
