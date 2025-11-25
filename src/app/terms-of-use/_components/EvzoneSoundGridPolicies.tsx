@@ -45,7 +45,8 @@ const EvzoneSoundGridPolicies = () => {
                 ? "bg-white text-black"
                 : "bg-[#F5F5F5] text-[#667085]"
             }`}
-            onClick={() => handleTabClick("termsOfUse")}>
+            onClick={() => handleTabClick("termsOfUse")}
+          >
             Terms of use
           </button>
           <button
@@ -54,7 +55,8 @@ const EvzoneSoundGridPolicies = () => {
                 ? "bg-white text-black"
                 : "bg-[#F5F5F5] text-[#667085]"
             }`}
-            onClick={() => handleTabClick("privacyPolicy")}>
+            onClick={() => handleTabClick("privacyPolicy")}
+          >
             Privacy Policy
           </button>
           <button
@@ -63,7 +65,8 @@ const EvzoneSoundGridPolicies = () => {
                 ? "bg-white text-black"
                 : "bg-[#F5F5F5] text-[#667085]"
             }`}
-            onClick={() => handleTabClick("deliveryReturn")}>
+            onClick={() => handleTabClick("deliveryReturn")}
+          >
             Delivery & Return
           </button>
           <button
@@ -72,7 +75,8 @@ const EvzoneSoundGridPolicies = () => {
                 ? "bg-white text-black"
                 : "bg-[#F5F5F5] text-[#667085]"
             }`}
-            onClick={() => handleTabClick("refundPolicy")}>
+            onClick={() => handleTabClick("refundPolicy")}
+          >
             Refund Policy
           </button>
         </div>
@@ -86,32 +90,34 @@ const EvzoneSoundGridPolicies = () => {
             </h4>
 
             <p className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base">
-              By purchasing and accessing audio-focused digital content from
-              Evzone Sound Grid Com. Ltd, including sound libraries, music,
-              audio books, and multimedia experiences, you agree to the
-              following comprehensive terms:
+              By purchasing and accessing any fashion products from Evzone Sound
+              Grid Com. Ltd — including women&apos;s clothing, accessories, and
+              related style merchandise — you agree to the following terms:
             </p>
 
             <ul className="list-disc pl-5 mt-2 space-y-2 text-xs md:text-sm xl:text-base">
               <li>
+                <span className="font-medium">Premium Fashion Collection:</span>{" "}
+                Evzone Sound Grid specializes in premium women&apos;s fashion,
+                offering a curated selection of stylish clothing, elegant
+                accessories, and trend-forward pieces designed to elevate the
+                modern woman&apos;s wardrobe. Our collection blends quality,
+                comfort, and contemporary design to meet the lifestyle and
+                fashion needs of today&apos;s women.
+              </li>
+              <li>
                 <span className="font-medium">
-                  Premium Audio Content Library:
+                  Fashion & Styling Essentials:
                 </span>{" "}
-                Evzone Sound Grid specializes in high-fidelity audio content
-                including professional sound libraries, royalty-free music,
-                sound effects, audio books, podcasts, immersive soundscapes, and
-                spatial audio experiences designed for professional and creative
-                use.
+                Our offerings include a wide range of women&apos;s fashion pieces
+                such as dresses, tops, skirts, outerwear, and activewear, along
+                with complementary accessories including bags, jewelry, and
+                footwear. Each item is thoughtfully curated to enhance personal
+                style, elevate everyday looks, and support confidence in every
+                occasion.
               </li>
               <li>
-                <span className="font-medium">Sound Production Tools:</span> Our
-                digital offerings include audio production software, sound
-                design tools, mixing templates, mastering presets, and
-                professional audio plugins optimized for music production, film
-                scoring, and audio post-production workflows.
-              </li>
-              <li>
-                <span className="font-medium">Audio Licensing Framework:</span>{" "}
+                <span className="font-medium">Audio Licensing Framework:</span>
                 Sound content is licensed based on usage type including personal
                 use, commercial use, broadcast licensing, and synchronization
                 rights. Each license type has specific usage restrictions,
@@ -119,70 +125,77 @@ const EvzoneSoundGridPolicies = () => {
                 defined at purchase.
               </li>
               <li>
-                <span className="font-medium">Professional Audio Quality:</span>{" "}
-                All audio content is delivered in professional formats including
-                24-bit/96kHz WAV files, lossless FLAC, high-resolution
-                streaming, and immersive audio formats like Dolby Atmos and
-                binaural recordings for premium listening experiences.
+                <span className="font-medium">Premium Quality Materials:</span>{" "}
+                All clothing items are crafted from high-quality, durable
+                fabrics designed for comfort, breathability, and long-lasting
+                wear. Our accessories feature premium materials including
+                stainless steel, leather, cotton, and hypoallergenic metals.
               </li>
-              <li>
-                <span className="font-medium">Sound Grid Technology:</span> Our
-                proprietary sound grid platform enables advanced audio search,
-                intelligent content recommendations, real-time audio preview,
-                and seamless integration with professional digital audio
-                workstations (DAWs) and creative software.
-              </li>
+
               <li>
                 <span className="font-medium">
-                  Audio Book & Podcast Collection:
+                  Style Grid Collection System:
                 </span>{" "}
-                Extensive library of professionally narrated audio books,
-                original podcast series, educational audio content, and spoken
-                word performances with chapter navigation, bookmarking, and
-                speed control features.
+                Our curated “style grid” makes it easy to discover outfits based
+                on trends, occasions, body type, and personal style preferences.
+                Enjoy smart recommendations that pair tops, bottoms, dresses,
+                and accessories for a complete look.
               </li>
+
               <li>
                 <span className="font-medium">
-                  Creative Commons & Royalty-Free Content:
+                  Clothing & Accessories Catalog:
                 </span>{" "}
-                Curated selection of Creative Commons licensed content and
-                royalty-free audio with clear usage rights documentation.
-                Commercial use licensing available with transparent pricing and
-                instant licensing confirmation.
+                Explore an extensive collection featuring dresses, tops, skirts,
+                pants, activewear, handbags, jewelry, footwear, and seasonal
+                fashion essentials — updated regularly with new arrivals.
               </li>
+
               <li>
                 <span className="font-medium">
-                  Audio Collaboration Features:
+                  Ethically-Sourced & Affordable Fashion:
                 </span>{" "}
-                Platform includes collaborative features for audio professionals
-                including shared playlists, project collaboration tools, version
-                control for audio assets, and team licensing options for
-                creative organizations.
+                Our products are sourced from trusted manufacturers with
+                transparent quality standards. We offer fair pricing, frequent
+                discounts, and promotions to make stylish fashion accessible to
+                everyone.
               </li>
+
               <li>
                 <span className="font-medium">
-                  Immersive Audio Experiences:
+                  Personal Styling & Outfit Inspiration:
                 </span>{" "}
-                Specialized content includes 3D audio experiences, VR/AR
-                soundscapes, interactive audio installations, and experimental
-                audio art designed for immersive media applications and spatial
-                audio platforms.
+                Access lookbooks, curated outfit suggestions, and seasonal style
+                guides to help you build fashionable ensembles effortlessly.
+                Save favorites and create personalized style boards for future
+                shopping.
+              </li>
+
+              <li>
+                <span className="font-medium">
+                  Premium Shopping Experience:
+                </span>{" "}
+                Enjoy a seamless and immersive shopping experience with
+                high-resolution product images, size guides, fabric details, and
+                interactive fitting previews designed to help you shop
+                confidently.
               </li>
             </ul>
 
             <p className="mt-4 leading-[1.8] text-xs md:text-sm xl:text-base">
-              <span className="font-medium">Audio Technology Integration:</span>{" "}
-              Our platform integrates with professional audio software including
-              Pro Tools, Logic Pro, Ableton Live, and other industry-standard
-              DAWs for seamless workflow integration and direct content import.
+              <span className="font-medium">Style & Wardrobe Integration:</span>{" "}
+              Our fashion platform offers curated outfit suggestions and styling
+              combinations, helping customers easily pair clothing and
+              accessories to create complete, fashionable looks for any
+              occasion.
             </p>
 
             <p className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base">
-              <span className="font-medium">Sound Quality Guarantee:</span> All
-              audio content undergoes professional mastering and quality control
-              processes to ensure optimal sound quality, consistent levels, and
-              format compatibility across professional and consumer audio
-              systems.
+              <span className="font-medium">Quality Assurance Guarantee:</span>{" "}
+              Every clothing item and accessory undergoes strict quality checks
+              to ensure excellent fabric durability, stitching integrity, and
+              overall finish. We guarantee that all products meet our high
+              standards of comfort, style, and long-lasting wear.
             </p>
           </div>
         )}
@@ -195,128 +208,118 @@ const EvzoneSoundGridPolicies = () => {
 
             <p className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base">
               Evzone Sound Grid Com. Ltd is committed to protecting the privacy
-              of audio professionals and content creators while providing
-              premium sound libraries, music production tools, and immersive
-              audio experiences. This policy explains our data practices for
-              audio-focused digital services.
+              of our customers while providing premium women&apos;s fashion,
+              clothing, and accessory products. This policy explains our data
+              practices for our online fashion store.
             </p>
 
             <h4 className="text-sm sm:text-base lg:text-lg font-medium mt-4">
-              AUDIO PLATFORM DATA COLLECTION
+              CUSTOMER DATA COLLECTION
             </h4>
 
             <ul className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base list-decimal pl-4">
               <li>
-                Audio professional information (name, studio details, project
-                requirements, creative specializations)
+                Customer information (name, contact details, shipping address,
+                payment details)
               </li>
               <li>
-                Sound library usage data including download patterns, favorite
-                genres, and creative project applications
+                Shopping and purchase history including favorite items,
+                wishlists, and browsing patterns
               </li>
               <li>
-                Audio search queries and content discovery patterns for
-                personalized recommendations
+                Search queries and product browsing behavior for personalized
+                recommendations
               </li>
               <li>
-                Digital audio workstation (DAW) integration data for workflow
-                optimization
+                Account and login information for account security and order
+                management
               </li>
               <li>
-                Audio quality preferences and format selection for optimal
-                content delivery
+                Preferences for size, style, and color for better product
+                suggestions
               </li>
               <li>
-                Creative project metadata for licensing compliance and usage
-                tracking
+                Order and return metadata for shipping, delivery tracking, and
+                service improvement
               </li>
               <li>
-                Professional collaboration data for team projects and shared
-                audio libraries
+                Interaction data with our customer service and styling support
               </li>
               <li>
-                Audio streaming behavior and playback analytics for platform
-                improvement
+                Website usage analytics to improve user experience and platform
+                functionality
               </li>
             </ul>
 
             <h4 className="text-sm sm:text-base lg:text-lg font-medium mt-4">
-              AUDIO CONTENT DATA USAGE
+              CUSTOMER DATA USAGE
             </h4>
 
             <ul className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base list-disc pl-4">
               <li>
-                To provide personalized sound recommendations based on creative
-                preferences and project requirements
+                To provide personalized fashion and outfit recommendations based
+                on preferences
               </li>
               <li>
-                To optimize audio delivery quality and format selection for
-                professional workflows
+                To optimize product suggestions, sizing guides, and style
+                matching
               </li>
               <li>
-                To enhance sound search functionality and content discovery
-                algorithms
+                To improve search functionality and browsing experience on our
+                platform
               </li>
               <li>
-                To facilitate professional licensing compliance and usage rights
-                management
+                To manage order fulfillment, returns, and customer service
+                requests
               </li>
               <li>
-                To improve DAW integration and creative workflow compatibility
+                To enhance website features and mobile app integrations for
+                smooth shopping
               </li>
               <li>
-                To deliver targeted content updates and new release
-                notifications
+                To deliver targeted promotions, newsletters, and product updates
               </li>
               <li>
-                To provide technical support for audio production and platform
-                integration
+                To provide support for styling advice, product inquiries, and
+                order issues
               </li>
-              <li>
-                To analyze audio trends and develop new sound content categories
-              </li>
+              <li>To analyze shopping trends and plan seasonal collections</li>
             </ul>
 
             <h4 className="text-sm sm:text-base lg:text-lg font-medium mt-4">
-              PROFESSIONAL AUDIO DATA SECURITY
+              CUSTOMER DATA SECURITY
             </h4>
 
             <p className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base">
-              We implement professional-grade security measures for all audio
-              content and user data including encrypted audio streaming, secure
-              download protocols, and protected creative project information.
-              Professional audio metadata is safeguarded with industry-standard
-              security practices. Licensing compliance data is maintained with
-              strict confidentiality protocols to protect commercial creative
-              projects.
+              We implement industry-standard security measures to protect
+              customer data, including encrypted transactions, secure storage of
+              payment information, and controlled access to personal details.
+              Order and account information is safeguarded to maintain
+              confidentiality and trust.
             </p>
 
             <h4 className="text-sm sm:text-base lg:text-lg font-medium mt-4">
-              AUDIO INDUSTRY PARTNERSHIPS
+              BUSINESS PARTNERSHIPS
             </h4>
 
             <p className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base">
-              Anonymous usage statistics are shared with audio content creators
-              and music publishers for royalty calculations and content
-              optimization. Performance rights organizations receive necessary
-              data for licensing compliance and royalty distribution. No
-              individual creative project data is shared without explicit
-              consent. All partnerships maintain strict confidentiality
-              requirements for professional audio work.
+              Anonymous usage statistics may be shared with logistics providers,
+              marketing partners, and trusted fashion suppliers for operational
+              and service improvement purposes. No personal customer information
+              is shared without explicit consent. All partnerships adhere to
+              strict confidentiality and privacy standards.
             </p>
 
             <h4 className="text-sm sm:text-base lg:text-lg font-medium mt-4">
-              CREATIVE PROFESSIONAL CONTROL
+              CUSTOMER CONTROL
             </h4>
 
             <p className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base">
-              Audio professionals have complete control over their creative data
-              including project metadata, collaboration settings, and usage
-              analytics. Sound library preferences can be customized for privacy
-              while maintaining personalization benefits. Professional licensing
-              records remain accessible for compliance and tax purposes. For
-              audio platform privacy inquiries, contact
-              privacy@evzonesound.com.ng.
+              Customers have complete control over their personal data,
+              including account information, order history, and newsletter
+              preferences. You can update your details, manage your preferences,
+              or request account deletion at any time. For privacy inquiries,
+              contact privacy@evzonesound.com.ng.
             </p>
           </div>
         )}
@@ -324,92 +327,65 @@ const EvzoneSoundGridPolicies = () => {
         {activeTab === "deliveryReturn" && (
           <div id="deliveryReturn" className="text-[#667085]">
             <h3 className="font-semibold text-sm md:text-base xl:text-lg mb-2">
-              AUDIO CONTENT DELIVERY POLICY - EVZONE SOUND GRID COM. LTD
+              DELIVERY & RETURN POLICY - EVZONE SOUND GRID COM. LTD
             </h3>
 
             <p className="text-xs md:text-sm xl:text-base mb-4">
-              Evzone Sound Grid Com. Ltd provides professional-grade audio
-              content delivery with high-fidelity streaming, instant downloads,
-              and comprehensive support for audio professionals, musicians, and
-              content creators worldwide.
+              Evzone Sound Grid Com. Ltd provides timely and reliable delivery
+              of premium women&apos;s fashion products, including clothing and
+              accessories, along with hassle-free return options for customer
+              satisfaction.
             </p>
 
             <div className="mb-6">
               <h4 className="font-medium text-xs md:text-sm xl:text-base mb-2">
-                Professional Audio Delivery Systems
+                Delivery & Shipping Systems
               </h4>
               <ul className="list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base">
                 <li>
-                  Instant high-resolution audio downloads with 24-bit/96kHz
-                  quality options
+                  Fast and reliable delivery to all major cities nationwide
                 </li>
                 <li>
-                  Professional streaming with lossless audio codecs and
-                  real-time preview
+                  Tracking system for all orders with real-time status updates
                 </li>
                 <li>
-                  Multiple format delivery including WAV, FLAC, AIFF, and
-                  compressed formats
+                  Multiple shipping options including standard and express
+                  delivery
                 </li>
+                <li>International shipping available for select items</li>
                 <li>
-                  Batch download capabilities for large sound library
-                  acquisitions
+                  Secure packaging to protect clothing and accessories during
+                  transit
                 </li>
-                <li>
-                  Direct DAW integration for seamless audio import and project
-                  workflow
-                </li>
-                <li>
-                  Cloud-based audio library with synchronization across multiple
-                  devices
-                </li>
+                <li>Notifications for estimated delivery dates and updates</li>
               </ul>
             </div>
 
             <div className="mb-6">
               <h4 className="font-medium text-xs md:text-sm xl:text-base mb-2">
-                Sound Library & Content Organization
+                Product Catalog & Organization
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <h5 className="font-medium text-xs md:text-sm mb-1">
-                    Sound Libraries
+                    Clothing Categories
                   </h5>
                   <ul className="list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base">
-                    <li>
-                      Categorized sound collections by genre, instrument, and
-                      mood
-                    </li>
-                    <li>
-                      Professional sample packs with stems and individual
-                      elements
-                    </li>
-                    <li>
-                      Royalty-free music with comprehensive licensing
-                      documentation
-                    </li>
-                    <li>
-                      Sound effects library with detailed metadata and tags
-                    </li>
+                    <li>Dresses, tops, skirts, pants, and outerwear</li>
+                    <li>Activewear and casual wear collections</li>
+                    <li>Seasonal and limited-edition fashion items</li>
+                    <li>Complete outfit sets for effortless styling</li>
                   </ul>
                 </div>
                 <div>
                   <h5 className="font-medium text-xs md:text-sm mb-1">
-                    Audio Books & Spoken Content
+                    Accessories & Styling
                   </h5>
                   <ul className="list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base">
-                    <li>
-                      High-quality narrated audio books with chapter navigation
-                    </li>
-                    <li>
-                      Professional podcast series and educational audio content
-                    </li>
-                    <li>
-                      Immersive audio experiences and spatial sound productions
-                    </li>
-                    <li>
-                      Interactive audio content with user-controlled elements
-                    </li>
+                    <li>Bags, purses, and backpacks</li>
+                    <li>Jewelry, watches, and fashion accessories</li>
+                    <li>Footwear including heels, sandals, and sneakers</li>
+                    <li>Hats, scarves, and seasonal styling pieces</li>
                   </ul>
                 </div>
               </div>
@@ -417,70 +393,40 @@ const EvzoneSoundGridPolicies = () => {
 
             <div className="mb-6">
               <h4 className="font-medium text-xs md:text-sm xl:text-base mb-2">
-                Professional Audio Tools Integration
-              </h4>
-              <ul className="list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base">
-                <li>
-                  Native plugin support for major DAWs including Pro Tools,
-                  Logic, and Ableton
-                </li>
-                <li>
-                  Audio production template libraries with project files and
-                  MIDI data
-                </li>
-                <li>
-                  Mastering preset collections for professional audio finishing
-                </li>
-                <li>Real-time audio analysis tools and spectrum analyzers</li>
-                <li>Collaborative audio sharing platform for team projects</li>
-                <li>Version control system for audio asset management</li>
-              </ul>
-            </div>
-
-            <div className="mb-6">
-              <h4 className="font-medium text-xs md:text-sm xl:text-base mb-2">
-                Audio Quality & Technical Support
+                Order Processing & Support
               </h4>
               <div className="space-y-3">
                 <div>
                   <p className="font-medium text-xs md:text-sm">
-                    Quality Assurance:
+                    Order Quality Assurance:
                   </p>
                   <ul className="list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base">
                     <li>
-                      Professional mastering and quality control for all audio
-                      content
+                      All clothing and accessories are inspected before shipment
                     </li>
-                    <li>
-                      Format compatibility testing across major audio software
-                      platforms
-                    </li>
-                    <li>
-                      Audio level optimization and dynamic range preservation
-                    </li>
-                    <li>
-                      Metadata accuracy verification for search and organization
-                    </li>
+                    <li>Packaging ensures items remain clean and undamaged</li>
+                    <li>Size and color accuracy is verified for each order</li>
+                    <li>Returns are processed to maintain product integrity</li>
                   </ul>
                 </div>
                 <div>
                   <p className="font-medium text-xs md:text-sm">
-                    Technical Support:
+                    Customer Support:
                   </p>
                   <ul className="list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base">
                     <li>
-                      24/7 technical support for audio professionals and content
-                      creators
+                      24/7 support for delivery inquiries and order issues
                     </li>
                     <li>
-                      DAW integration assistance and troubleshooting support
+                      Assistance with tracking, shipping updates, and address
+                      changes
                     </li>
                     <li>
-                      Audio format conversion services and compatibility
-                      solutions
+                      Returns and exchanges handled efficiently and
+                      professionally
                     </li>
                     <li>
-                      Professional consultation for audio production workflows
+                      Styling advice and product guidance available on request
                     </li>
                   </ul>
                 </div>
@@ -489,42 +435,31 @@ const EvzoneSoundGridPolicies = () => {
 
             <div className="mb-6">
               <h4 className="font-medium text-xs md:text-sm xl:text-base mb-2">
-                Licensing & Usage Rights Guarantee
+                Return & Exchange Guidelines
               </h4>
               <ul className="list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base">
                 <li>
-                  Clear licensing documentation with all audio content purchases
+                  Returns accepted within 14 days of delivery for unused items
                 </li>
+                <li>Items must be in original condition with tags intact</li>
+                <li>Exchanges available for different sizes or colors</li>
+                <li>Refunds processed promptly after item inspection</li>
                 <li>
-                  Commercial use rights verification and compliance support
-                </li>
-                <li>
-                  Sync licensing assistance for film, TV, and advertising
-                  applications
-                </li>
-                <li>
-                  Royalty-free guarantee with comprehensive legal protection
-                </li>
-                <li>
-                  Usage rights expansion options for growing creative projects
-                </li>
-                <li>
-                  Professional licensing consultation for complex commercial
-                  applications
+                  Non-returnable items include personalized or final-sale
+                  products
                 </li>
               </ul>
             </div>
 
             <div className="mt-6 pt-4 border-t border-gray-200">
               <h4 className="font-semibold text-xs md:text-sm xl:text-base mb-2">
-                Audio Professional Support
+                Customer Support
               </h4>
               <ul className="list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base">
-                <li>Audio Support: audio@evzonesound.com.ng</li>
-                <li>Technical Support: support@evzonesound.com.ng</li>
-                <li>Licensing: licensing@evzonesound.com.ng</li>
-                <li>Professional Services: pro@evzonesound.com.ng</li>
-                {/* <li>Phone: +234-801-234-5016</li> */}
+                <li>Email: support@evzonesound.com.ng</li>
+                <li>Phone: +234-801-234-5016</li>
+                <li>Order Inquiries: orders@evzonesound.com.ng</li>
+                <li>Styling Assistance: style@evzonesound.com.ng</li>
                 <li>Website: www.evzonesound.com.ng</li>
               </ul>
             </div>
@@ -534,233 +469,116 @@ const EvzoneSoundGridPolicies = () => {
         {activeTab === "refundPolicy" && (
           <div id="refundPolicy" className="text-[#667085]">
             <h3 className="font-semibold text-sm md:text-base xl:text-lg mb-2">
-              REFUND POLICY - EVZONE SOUND GRID COM. LTD
+              REFUND POLICY - EVZONE FASHION STORE
             </h3>
             <p className="text-xs md:text-sm xl:text-base mb-4">
               Effective Date: {new Date().toLocaleDateString("en-GB")}
             </p>
 
             <p className="text-xs md:text-sm xl:text-base mb-4">
-              At Evzone Sound Grid Com. Ltd, we are committed to providing
-              exceptional audio content and professional-grade sound tools that
-              meet the demanding standards of audio professionals, musicians,
-              and content creators. Our refund policy ensures satisfaction while
-              respecting audio licensing agreements.
+              At Evzone Fashion Store, we are committed to providing
+              high-quality women&apos;s clothing and accessories. Our refund
+              policy ensures customer satisfaction while maintaining fair
+              practices for purchased fashion products.
             </p>
 
             <ul className="list-disc pl-5 space-y-3 leading-[1.8] text-xs md:text-sm xl:text-base">
               <li>
+                <span className="font-medium">1. Product Quality Refunds</span>
+                <ul className="list-disc pl-5 mt-1 space-y-1">
+                  <li>
+                    Refunds within 14 days for damaged, defective, or incorrect
+                    items
+                  </li>
+                  <li>
+                    Full refund if product differs significantly from the
+                    description or images
+                  </li>
+                  <li>
+                    Size or color discrepancies refunds if items don&apos;t
+                    match selected options
+                  </li>
+                  <li>
+                    Material or stitching defects refunds if product quality is
+                    below standards
+                  </li>
+                  <li>Refunds for missing components or accessories</li>
+                </ul>
+              </li>
+
+              <li>
                 <span className="font-medium">
-                  1. Audio Content Quality Refunds
+                  2. Custom & Personalized Items
                 </span>
                 <ul className="list-disc pl-5 mt-1 space-y-1">
                   <li>
-                    48-hour refund window for audio quality issues including
-                    distortion, clipping, or format problems
+                    Custom orders are non-refundable unless defective or
+                    incorrect
                   </li>
                   <li>
-                    Full refund for sound libraries that don&apos;t match
-                    advertised quality specifications
+                    Personalized item errors qualify for exchange or partial
+                    refund
                   </li>
                   <li>
-                    Audio format compatibility refunds if content cannot be used
-                    in specified professional software
-                  </li>
-                  <li>
-                    Metadata accuracy refunds for incorrectly tagged or
-                    mislabeled audio content
-                  </li>
-                  <li>
-                    Professional standards refund if audio doesn&apos;t meet
-                    broadcast or commercial quality requirements
+                    All claims must be submitted within 7 days of delivery
                   </li>
                 </ul>
               </li>
 
               <li>
                 <span className="font-medium">
-                  2. Professional Audio Tool Refunds
+                  3. Return & Exchange Guidelines
                 </span>
                 <ul className="list-disc pl-5 mt-1 space-y-1">
                   <li>
-                    30-day satisfaction guarantee for audio production tools and
-                    plugins
+                    Returns accepted within 14 days of delivery for eligible
+                    items
                   </li>
                   <li>
-                    DAW compatibility refunds if tools cannot integrate with
-                    advertised software
+                    Items must be unused, unwashed, and with original tags
+                    attached
                   </li>
                   <li>
-                    Professional workflow refunds for tools that don&apos;t
-                    enhance production efficiency
+                    Exchanges available for different sizes, colors, or styles
                   </li>
-                  <li>
-                    Feature functionality refunds if advertised capabilities are
-                    not present
-                  </li>
-                  <li>
-                    Audio processing quality refunds for tools that degrade
-                    sound quality
-                  </li>
+                  <li>Refunds processed promptly after item inspection</li>
                 </ul>
               </li>
 
               <li>
-                <span className="font-medium">
-                  3. Licensing & Usage Rights Refunds
-                </span>
+                <span className="font-medium">4. Non-Refundable Items</span>
                 <ul className="list-disc pl-5 mt-1 space-y-1">
+                  <li>Sale, final clearance, or limited-edition items</li>
                   <li>
-                    Licensing compliance refunds if usage rights don&apos;t
-                    match project requirements
+                    Items damaged after delivery due to misuse or improper care
                   </li>
-                  <li>
-                    Commercial use refunds if licensing terms restrict intended
-                    professional applications
-                  </li>
-                  <li>
-                    Sync licensing refunds for content that cannot be used in
-                    film/TV applications as advertised
-                  </li>
-                  <li>
-                    Territory restriction refunds if geographic limitations
-                    aren&apos;t clearly disclosed
-                  </li>
-                  <li>
-                    Attribution requirement refunds if licensing terms change
-                    after purchase
-                  </li>
+                  <li>Gift cards or vouchers</li>
                 </ul>
               </li>
 
               <li>
-                <span className="font-medium">
-                  4. Audio Book & Spoken Content Refunds
-                </span>
-                <ul className="list-disc pl-5 mt-1 space-y-1">
-                  <li>
-                    Narration quality refunds for audio books with poor
-                    recording or performance issues
-                  </li>
-                  <li>
-                    Content accuracy refunds if audio doesn&apos;t match written
-                    descriptions
-                  </li>
-                  <li>
-                    Chapter navigation refunds if promised features don&apos;t
-                    function properly
-                  </li>
-                  <li>
-                    Audio quality refunds for spoken content with technical
-                    defects
-                  </li>
-                  <li>
-                    Language or accent clarity refunds if content is difficult
-                    to understand
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-                <span className="font-medium">
-                  5. Non-Refundable Audio Content
-                </span>
-                <ul className="list-disc pl-5 mt-1 space-y-1">
-                  <li>
-                    Successfully downloaded audio content used in completed
-                    creative projects
-                  </li>
-                  <li>
-                    Custom audio production services delivered according to
-                    specifications
-                  </li>
-                  <li>
-                    Audio content accessed and auditioned beyond preview
-                    timeframes
-                  </li>
-                  <li>
-                    Licensing rights already utilized in commercial or published
-                    applications
-                  </li>
-                  <li>
-                    Collaborative audio projects with shared access among team
-                    members
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-                <span className="font-medium">
-                  6. Professional Audio Refund Process
-                </span>
-                <p className="mt-1">To request audio content refunds:</p>
+                <span className="font-medium">5. Refund Request Process</span>
+                <p className="mt-1">To request a refund:</p>
                 <ul className="list-disc pl-5 mt-1 space-y-1">
                   <li>Email: refunds@evzonesound.com.ng</li>
-                  <li>Professional Support: +234-801-234-5016 (ext. 300)</li>
                   <li>
-                    Provide detailed technical specifications and quality
-                    concerns
+                    Provide order number, product details, and reason for return
                   </li>
-                  <li>
-                    Include project context and intended professional
-                    application
-                  </li>
-                  <li>
-                    Submit audio samples or screenshots demonstrating quality
-                    issues
-                  </li>
+                  <li>Include photos if product is damaged or defective</li>
+                  <li>Specify whether you prefer a refund or exchange</li>
                 </ul>
               </li>
 
               <li>
-                <span className="font-medium">
-                  7. Audio Technical Assessment
-                </span>
+                <span className="font-medium">6. Refund Processing Time</span>
                 <ul className="list-disc pl-5 mt-1 space-y-1">
                   <li>
-                    Professional audio engineer review of all quality-related
-                    refund requests
+                    Refunds processed within 5–10 business days after item
+                    inspection
                   </li>
+                  <li>Payments returned using original payment method</li>
                   <li>
-                    Technical analysis of format compatibility and software
-                    integration issues
-                  </li>
-                  <li>
-                    Licensing expert consultation for usage rights and
-                    compliance concerns
-                  </li>
-                  <li>
-                    Creative professional consultation to explore alternative
-                    solutions
-                  </li>
-                  <li>
-                    Independent audio quality verification for disputed content
-                    standards
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-                <span className="font-medium">
-                  8. Professional Audio Solutions
-                </span>
-                <ul className="list-disc pl-5 mt-1 space-y-1">
-                  <li>
-                    Audio content exchange for alternative sound libraries or
-                    tools
-                  </li>
-                  <li>
-                    Professional credits applicable to future audio purchases
-                    and licenses
-                  </li>
-                  <li>
-                    Custom audio production services as compensation for quality
-                    issues
-                  </li>
-                  <li>Extended licensing terms or usage rights upgrades</li>
-                  <li>
-                    Priority access to new releases and exclusive professional
-                    content
+                    Exchanges shipped within 3–5 business days after approval
                   </li>
                 </ul>
               </li>
@@ -771,12 +589,12 @@ const EvzoneSoundGridPolicies = () => {
                 Contact Information
               </h4>
               <p className="text-xs md:text-sm xl:text-base">
-                For professional audio refunds and support:
+                For refunds and support:
               </p>
               <ul className="list-disc pl-5 mt-2 space-y-1 text-xs md:text-sm xl:text-base">
-                <li>Evzone Sound Grid Com. Ltd</li>
+                <li>Evzone Fashion Store</li>
                 <li>Email: refunds@evzonesound.com.ng</li>
-                <li>Audio Support: audio@evzonesound.com.ng</li>
+                <li>Customer Support: support@evzonesound.com.ng</li>
                 <li>Phone: +234-801-234-5016</li>
                 <li>Website: www.evzonesound.com.ng</li>
               </ul>
