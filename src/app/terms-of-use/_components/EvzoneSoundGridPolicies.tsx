@@ -33,7 +33,7 @@ const EvzoneSoundGridPolicies = () => {
           Evzone Sound Grid Com. Ltd Policies
         </h3>
         <span className="text-xs sm:text-sm xl:text-base leading-[150%] text-gray-400 sm:max-w-3xl slg:max-w-2xl">
-          Evzone Sound Grid Com. Ltd, we specialize in premium women's fashion,
+          Evzone Sound Grid Com. Ltd, we specialize in premium women&apos;s fashion,
           offering a curated selection of clothing, accessories, and lifestyle
           apparel. Our collection features high-quality fabrics, trend-forward
           designs, and versatile pieces to elevate every wardrobe with style,
