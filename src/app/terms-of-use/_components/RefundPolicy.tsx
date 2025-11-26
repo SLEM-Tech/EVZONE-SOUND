@@ -36,7 +36,7 @@ const RefundPolicy = () => {
               <li>The item was not delivered</li>
               <li>
                 You request a return within 4 days of delivery for eligible
-                products
+                items
               </li>
             </ul>
             <li>

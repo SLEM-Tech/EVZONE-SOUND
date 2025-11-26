@@ -33,9 +33,11 @@ const EvzoneSoundGridPolicies = () => {
           Evzone Sound Grid Com. Ltd Policies
         </h3>
         <span className="text-xs sm:text-sm xl:text-base leading-[150%] text-gray-400 sm:max-w-3xl slg:max-w-2xl">
-          Evzone Sound Grid Com. Ltd, we specialize in premium women's fashion, offering a curated selection of clothing,
-          accessories, and lifestyle apparel. Our collection features high-quality fabrics, trend-forward designs, and 
-          versatile pieces to elevate every wardrobe with style, comfort, and sophistication.
+          Evzone Sound Grid Com. Ltd, we specialize in premium women&apos;s fashion,
+          offering a curated selection of clothing, accessories, and lifestyle
+          apparel. Our collection features high-quality fabrics, trend-forward
+          designs, and versatile pieces to elevate every wardrobe with style,
+          comfort, and sophistication.
         </span>
         <div className="flex gap-2 mt-3 xl:mt-8 text-[10px] xs:text-xs sm:text-sm slg:text-base leading-[140%] bg-[#F5F5F5] p-1 rounded-md transition">
           <button
@@ -95,44 +97,29 @@ const EvzoneSoundGridPolicies = () => {
             </p>
 
             <ul className="list-disc pl-5 mt-2 space-y-2 text-xs md:text-sm xl:text-base">
+              {/* Premium Fashion Collection */}
               <li>
                 <span className="font-medium">Premium Fashion Collection:</span>{" "}
                 Evzone Sound Grid specializes in premium women&apos;s fashion,
                 offering a curated selection of stylish clothing, elegant
                 accessories, and trend-forward pieces designed to elevate the
                 modern woman&apos;s wardrobe. Our collection blends quality,
-                comfort, and contemporary design to meet the lifestyle and
-                fashion needs of today&apos;s women.
+                comfort, and contemporary design to meet everyday lifestyle
+                needs.
               </li>
+
+              {/* Fashion & Styling Essentials */}
               <li>
                 <span className="font-medium">
                   Fashion & Styling Essentials:
                 </span>{" "}
-                Our offerings include a wide range of women&apos;s fashion pieces
-                such as dresses, tops, skirts, outerwear, and activewear, along
-                with complementary accessories including bags, jewelry, and
-                footwear. Each item is thoughtfully curated to enhance personal
-                style, elevate everyday looks, and support confidence in every
-                occasion.
-              </li>
-              <li>
-                <span className="font-medium">Premium Quality Materials:</span>{" "}
-                All clothing items are crafted from high-quality, durable
-                fabrics designed for comfort, breathability, and long-lasting
-                wear. Our accessories feature premium materials including
-                stainless steel, leather, cotton, and hypoallergenic metals.
+                Our offerings include dresses, tops, skirts, outerwear,
+                activewear, and complementary accessories such as handbags,
+                jewelry, and footwear — all curated to enhance personal style
+                and confidence.
               </li>
 
-              <li>
-                <span className="font-medium">
-                  Style Grid Collection System:
-                </span>{" "}
-                Our curated “style grid” makes it easy to discover outfits based
-                on trends, occasions, body type, and personal style preferences.
-                Enjoy smart recommendations that pair tops, bottoms, dresses,
-                and accessories for a complete look.
-              </li>
-
+              {/* Clothing & Accessories Catalog */}
               <li>
                 <span className="font-medium">
                   Clothing & Accessories Catalog:
@@ -142,51 +129,63 @@ const EvzoneSoundGridPolicies = () => {
                 fashion essentials — updated regularly with new arrivals.
               </li>
 
+              {/* Ethically-Sourced & Affordable Fashion */}
               <li>
                 <span className="font-medium">
                   Ethically-Sourced & Affordable Fashion:
                 </span>{" "}
                 Our products are sourced from trusted manufacturers with
-                transparent quality standards. We offer fair pricing, frequent
-                discounts, and promotions to make stylish fashion accessible to
-                everyone.
+                transparent quality standards. We offer fair pricing,
+                promotions, and frequent discounts to make stylish fashion
+                accessible to all.
               </li>
 
+              {/* Style Grid Collection System */}
+              <li>
+                <span className="font-medium">
+                  Style Grid Collection System:
+                </span>{" "}
+                Our curated “style grid” helps customers discover outfits based
+                on trends, body type, occasions, and personal style preferences
+                — pairing tops, bottoms, dresses, and accessories for complete
+                looks.
+              </li>
+
+              {/* Personal Styling */}
               <li>
                 <span className="font-medium">
                   Personal Styling & Outfit Inspiration:
                 </span>{" "}
-                Access lookbooks, curated outfit suggestions, and seasonal style
+                Access seasonal lookbooks, curated outfit suggestions, and style
                 guides to help you build fashionable ensembles effortlessly.
-                Save favorites and create personalized style boards for future
-                shopping.
+                Save favorites and create personalized style boards.
               </li>
 
+              {/* Premium Shopping Experience */}
               <li>
                 <span className="font-medium">
                   Premium Shopping Experience:
                 </span>{" "}
-                Enjoy a seamless and immersive shopping experience with
-                high-resolution product images, size guides, fabric details, and
-                interactive fitting previews designed to help you shop
-                confidently.
+                Enjoy a seamless shopping experience with detailed product
+                images, accurate size guides, fabric descriptions, and intuitive
+                navigation designed to help you shop confidently.
               </li>
             </ul>
 
+            {/* Additional text */}
             <p className="mt-4 leading-[1.8] text-xs md:text-sm xl:text-base">
               <span className="font-medium">Style & Wardrobe Integration:</span>{" "}
-              Our fashion platform offers curated outfit suggestions and styling
-              combinations, helping customers easily pair clothing and
-              accessories to create complete, fashionable looks for any
-              occasion.
+              Our platform provides curated outfit combinations that help
+              customers pair clothing and accessories to create complete,
+              fashionable looks for any occasion.
             </p>
 
             <p className="mt-2 leading-[1.8] text-xs md:text-sm xl:text-base">
               <span className="font-medium">Quality Assurance Guarantee:</span>{" "}
               Every clothing item and accessory undergoes strict quality checks
               to ensure excellent fabric durability, stitching integrity, and
-              overall finish. We guarantee that all products meet our high
-              standards of comfort, style, and long-lasting wear.
+              overall finish. All products meet our standards of comfort, style,
+              and long-lasting wear.
             </p>
           </div>
         )}
